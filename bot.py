@@ -45,3 +45,4 @@ async def handle_message(message: types.Message):
 
 if name == 'main':
     executor.start_polling(dp, skip_updates=True)
+    executor.start_polling(dp, skip_updates=True)
